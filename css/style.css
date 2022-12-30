@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Inter:wght@600;700&family=Laila&family=Lakki+Reddy&family=Poppins:wght@100;400;600;700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #2e574e;
+	height: 100vh;
+	width: 100%;
+}
+
+h1 {
+	margin-top: 100px;
+	font-weight: 400;
+	font-size: 64px;
+	font-family: "Lakki Reddy", cursive;
+}
+
+i {
+	margin: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.modal-content {
+	background-color: rgba(251, 251, 251, 0.788);
+	border-radius: 20px;
+}
+.content h6 {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+}
+.main {
+	height: 70vh;
+}
+
+.btn-toolbar {
+	border-radius: 25px;
+	box-shadow: #4b6f67;
+}
+.footer {
+	position: absolute;
+	height: 30vh;
+	bottom: 0;
+	padding-bottom: 30px;
+	background-color: #2e574e;
+}
+.bg {
+	background: linear-gradient(
+			0deg,
+			rgba(19, 87, 74, 0.137),
+			rgba(11, 61, 51, 0.664)
+		),
+		url(/img/bg.png);
+	height: 70vh;
+	width: 100vw;
+	background-size: cover;
+	background-position-x: center;
+	margin: 0;
+}
+
+.nav-link i {
+	font-size: 22px;
+}
+
+.navbar-brand {
+	margin-right: 0;
+	font-family: "Lakki Reddy", cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 47px;
+	padding-top: 25px;
+}
+
+.payment {
+	margin-right: 5px;
+	margin-top: 8px;
+	width: 100px;
+	height: 38px;
+}
+
+.search {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.card_product {
+	font-family: "IBM Plex Serif", cursive;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 300px;
+}
+
+.indicator {
+	font-size: 25px;
+}
+
+.btn-white {
+	background-color: white;
+}
+
+.title {
+	font-family: "IBM Plex Serif" !important;
+}
+
+.s-title {
+	font-size: 50px;
+}
+
+.t-2 {
+	font-size: 20px;
+}
+
+.detail-img {
+	min-height: 200px;
+	min-width: 200px;
+	max-height: 400px;
+	max-width: 400px;
+}
+
+.small-img {
+	min-height: 100px;
+	min-width: 100px;
+	max-height: 150px;
+	max-width: 150px;
+}
+
+.btn {
+	background-color: #75b7a8;
+	border: transparent;
+}
+
+.card-1 {
+	text-align: left;
+	background-color: transparent;
+	border: 3px solid #75b7a8;
+	border-radius: 15px;
+}
+
+.card {
+	border-radius: 15px;
+}
+
+.otentic-color {
+	background-color: #75b7a8;
+}
+
+.text-white {
+	color: white !important;
+}
